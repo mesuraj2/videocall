@@ -1,0 +1,29 @@
+.chat_input {
+    height: 36px;
+    width: 225px;
+    position: absolute;
+    bottom: 6px;
+    right: 5vw;
+    border-radius: 9px;
+
+}
+button{
+    height: 41px;
+    width: 54px;
+    position: absolute;
+    bottom: 6px;
+    right: 0px;
+    border-radius: 9px;
+}
+
+
+.chat{
+	box-sizing: border-box;
+    width: 30vw;
+    border: 2px solid black;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+	right: 0;
+    overflow: auto;
+}

@@ -1,0 +1,85 @@
+
+.container {
+	display: grid;
+	grid-template-columns: 7fr 3fr;
+}
+
+.myId {
+    /* margin-right: 59rem; */
+    /* border-radius: 5px; */
+    /* background: #c9d6ff; */
+    background: linear-gradient( to right, #e2e2e2, #c9d6ff );
+    padding: 2rem;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+	bottom: -12px;
+    height: 30vh;
+    width: 24%;
+    box-sizing: border-box;
+    right: 30vw;
+}
+
+.call-button {
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.video-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: center;
+	align-content: center;
+}
+
+.caller {
+	text-align: center;
+	color: #fff;
+}
+
+
+
+
+.chat{
+	box-sizing: border-box;
+    width: 30vw;
+    border: 2px solid black;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+	right: 0;
+    overflow: auto;
+}
+
+
+/* .video-position{
+	width: 326px;
+    position: absolute;
+    top: 21px;
+} */
+
+
+.chat_input {
+    height: 36px;
+    width: 225px;
+    position: absolute;
+
+    bottom: 6px;
+    right: 17vw;
+    border-radius: 9px;
+
+}
+.name{
+    margin: 2px;
+}
+
+.list_item{
+    list-style: none;
+}
+
+
+.list_item{
+    max-height: 90vh;
+    overflow: auto;
+}
